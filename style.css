@@ -31,3 +31,29 @@ nav ul li :hover {
     text-decoration: rgb(131, 159, 242);
     color:aqua;
 }
+.content{
+    padding: 20px;
+      display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color:aquamarine;
+}
+.content div {
+        background-color: #c9d1cb;
+        margin: 10px;
+        padding: 20px;
+        flex: 1 1 200px;
+    }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: rgb(217, 227, 39);
+    padding: 10px;
+}
+.grid-container div {
+    background-color: #c9d1cb;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
